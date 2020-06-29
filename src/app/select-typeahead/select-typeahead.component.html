@@ -1,0 +1,14 @@
+<label for="typeahead-focus">Select favourite colour:</label>
+<input
+  id="typeahead-focus"
+  type="text"
+  class="form-control"
+  [(ngModel)]="value"
+  [ngbTypeahead]="search"
+  (focus)="focus$.next($any($event).target.value)"
+  (click)="click$.next($any($event).target.value)"
+  (keyup)="searchItems()"
+  [resultFormatter]="formatter"
+  [inputFormatter]="formatter"
+  #instance="ngbTypeahead"
+/>

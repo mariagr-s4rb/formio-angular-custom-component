@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-formio-custom-select-demo": [
+        "dist/angular-formio-custom-select-demo/angular-formio-custom-select-demo",
+        "dist/angular-formio-custom-select-demo"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

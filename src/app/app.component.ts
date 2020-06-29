@@ -21,5 +21,6 @@ export class AppComponent {
   toggleBuilder() {
     this.builder = !this.builder;
     this.form = cloneDeep(this._form);
+    console.log({form: this.form});
   }
 }
