@@ -22,6 +22,10 @@
       "angular-formio-custom-select-demo": [
         "dist/angular-formio-custom-select-demo/angular-formio-custom-select-demo",
         "dist/angular-formio-custom-select-demo"
+      ],
+      "custom-components": [
+        "dist/custom-components/custom-components",
+        "dist/custom-components"
       ]
     }
   },
